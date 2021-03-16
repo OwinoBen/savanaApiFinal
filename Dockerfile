@@ -5,7 +5,7 @@ MAINTAINER Peter Fisher
 COPY ./app/requirements.txt /app/requirements.txt
 
 WORKDIR /savanaApiFinal
-${WORKSPACE}/Dockerfile
+#${WORKSPACE}/Dockerfile
 
 RUN apk add --update \
   && pip install --upgrade pip  \
