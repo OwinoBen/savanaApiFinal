@@ -14,4 +14,4 @@ RUN apk add --update \
 
 COPY ./app /app
 
-CMD python apps.py run -h 0.0.0.0
+CMD python app.py run -h 0.0.0.0
